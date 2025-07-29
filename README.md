@@ -1,6 +1,6 @@
 # Waves - Heal Your Soul
 
-A Spring Boot application for wellness and healing where people talk and share their experiences with mental health, wellness, and healing. The goal is to help each other heal and grow, not to drown in the waves of negativity, but to rise above them, one wave at a time.
+Waves - a Spring Boot application for wellness and healing where people talk and share their experiences with mental health, wellness, and healing. The goal is to help each other heal and grow, not to drown in the waves of negativity, but to rise above them, one wave at a time.
 
 Note: This is a work in progress and is not yet ready for production. 
 
@@ -56,7 +56,7 @@ src/main/java/com/example/waves/
 - Spring Boot 3.5.4
 - Spring Security
 - Spring Data JPA
-- H2 Database (in-memory)
+- H2 Database (in-memory for now, will be replaced with postgresql or sqlite later)
 - Lombok for boilerplate reduction
 
 ### Development Tools
@@ -72,16 +72,3 @@ The application uses the following configuration:
 - **Security:** Basic Spring Security with form login
 - **Port:** 8080
 - **Logging:** DEBUG level for development
-
-## Next Steps
-
-1. Create your first entity in `src/main/java/com/example/waves/entity/`
-2. Create repositories in `src/main/java/com/example/waves/repository/`
-3. Add business logic in `src/main/java/com/example/waves/service/`
-4. Create REST endpoints in `src/main/java/com/example/waves/controller/`
-
-## Troubleshooting
-
-- If you get port conflicts, change `server.port` in `application.properties`
-- For database issues, check the H2 console at `/h2-console`
-- Enable debug logging in `application.properties` for detailed logs 
